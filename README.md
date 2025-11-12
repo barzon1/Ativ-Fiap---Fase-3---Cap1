@@ -9,21 +9,22 @@ Nesta fase, o objetivo foi carregar os dados coletados na Fase 2 em um banco de 
 ### 1. Processo de Conexão e Importação
 
 Seguindo o guia fornecido, realizamos a conexão com o banco de dados Oracle da FIAP.
-![Configurações da conexão](config.jpg)
+![Configurações da conexão](/assets/config.jpg)
 
 Após a conexão bem-sucedida, utilizamos a ferramenta de importação de dados ("Importa Dados") para carregar nosso arquivo de dados da Fase 2.
-![Importação da tabela](import_date.jpg)
+![Importação da tabela](/assets/import_date.jpg)
 
 ### 2. Definição e Carga da Tabela
 
-O arquivo foi carregado para uma nova tabela, que nomeamos como `NUMEROSDEFAZENDAS`. As colunas foram mapeadas automaticamente a partir do arquivo de origem, e os dados foram importados com sucesso.
-![Tela de Confirmação](confirmation.jpg)
+O arquivo foi carregado para uma nova tabela, que nomeamos como `HISTORICO`. As colunas foram mapeadas automaticamente a partir do arquivo de origem, e os dados foram importados com sucesso.
+![Tela de Confirmação](/assets/confirmation.jpg)
 
 ### 3. Consulta SQL dos Dados
 
 Para verificar se os dados foram carregados corretamente, executamos uma consulta `SELECT *` na tabela criada. Os resultados confirmam que os dados estão agora armazenados no banco de dados Oracle.
 
 **Consulta Realizada:**
-![Tabela importada](table.png)
+![Tabela importada](/assets/table.png)
 SELECT * FROM NUMEROSDEFAZENDAS;
+
 

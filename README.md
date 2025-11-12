@@ -24,7 +24,8 @@ O arquivo foi carregado para uma nova tabela, que nomeamos como `HISTORICO`. As 
 Para verificar se os dados foram carregados corretamente, executamos uma consulta `SELECT *` na tabela criada. Os resultados confirmam que os dados estão agora armazenados no banco de dados Oracle.
 
 **Consulta Realizada:**
-![Tabela importada](/assets/table.png)
+![Tabela importada](/assets/table.jpg)
 SELECT * FROM NUMEROSDEFAZENDAS;
+
 
 

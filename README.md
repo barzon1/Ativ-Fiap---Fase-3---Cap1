@@ -25,7 +25,8 @@ Para verificar se os dados foram carregados corretamente, executamos uma consult
 
 **Consulta Realizada:**
 ![Tabela importada](/assets/table.jpg)
-SELECT * FROM NUMEROSDEFAZENDAS;
+SELECT * FROM HISTORICO;
+
 
 
 
